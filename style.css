@@ -10,6 +10,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    position: relative;
 }
 
 main{
@@ -108,9 +110,9 @@ a.green:hover{
 
 @media(max-width:780px){
     body{
+        height: auto;
         margin: 100px 0px;
         align-items: center;
-        position: relative;
     }
     main{
         width: 330px;
